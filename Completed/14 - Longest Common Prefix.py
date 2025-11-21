@@ -1,3 +1,7 @@
+# 14. Longest Common Prefix
+# https://leetcode.com/problems/longest-common-prefix/
+
+
 def longestCommonPrefix(strs: list[str]) -> str:
     # Return an empty string if the strs list is empty, or if all items in the list are empty
     if not strs or not all(s.strip() for s in strs) or not all(s[0] == strs[0][0] for s in strs):

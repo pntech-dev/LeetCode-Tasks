@@ -1,3 +1,7 @@
+# 15. 3Sum
+# https://leetcode.com/problems/3sum/
+
+
 def threeSum(nums: list[int]) -> list[list[int]]:
     if len(nums) < 3:
         return []
